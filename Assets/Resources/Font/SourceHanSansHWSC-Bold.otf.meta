@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 0bbb170bcebdbb94b977955560d92299
+timeCreated: 1515561708
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Source Han Sans HW SC
+  fontNames:
+  - Source Han Sans HW SC
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 6f2198d536de0b64ba293ee015f40c7c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
