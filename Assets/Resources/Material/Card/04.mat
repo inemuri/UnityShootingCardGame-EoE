@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 04
+  m_Shader: {fileID: 4800000, guid: 38549bec08c6f8f448496f90fb4259dd, type: 3}
+  m_ShaderKeywords: APPLYALL_ON APPLYWAVE1_ON ETC1_EXTERNAL_ALPHA USEUNSCALEDTIME_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - BASE:
+        m_Texture: {fileID: 2800000, guid: 2d812bb32d829854086ce9df5e385eea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - EXT1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - EXT2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - GLOW1:
+        m_Texture: {fileID: 2800000, guid: 2d812bb32d829854086ce9df5e385eea, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - GLOW2:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - MASK:
+        m_Texture: {fileID: 2800000, guid: 4be5ee49c733ade41b89883fec2c47c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - WAVE:
+        m_Texture: {fileID: 2800000, guid: a59a9e9193228a54594884e121a092a4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - APPLYALL: 1
+    - APPLYBASE: 0
+    - APPLYEX1: 0
+    - APPLYEX2: 0
+    - APPLYWAVE1: 1
+    - APPLYWAVE2: 0
+    - EXM1: 0
+    - EXM2: 0
+    - GMOVEX1: 0
+    - GMOVEX2: 0
+    - GMOVEY1: 0
+    - GMOVEY2: 0
+    - GROTATION1: 0
+    - GROTATION2: 0
+    - GSCALEX1: 0.86
+    - GSCALEX2: 0.57
+    - GSCALEY1: 1
+    - GSCALEY2: 0.52
+    - GSOFFSETX1: 0
+    - GSOFFSETX2: 0
+    - GSOFFSETY1: 0
+    - GSOFFSETY2: 0.69
+    - GSTR1: 2
+    - GSTR2: -2
+    - UNSCALEDTIME: 0
+    - USEMAIN: 0
+    - USEUNSCALEDTIME: 1
+    - WMOVEX: 0
+    - WMOVEY: 5
+    - WSTR: 0.2
+    m_Colors:
+    - GCOLOR1: {r: 1, g: 0.582, b: 0, a: 1}
+    - GCOLOR2: {r: 0.14099997, g: 0.788686, b: 1, a: 1}
