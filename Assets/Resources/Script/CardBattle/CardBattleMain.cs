@@ -79,6 +79,11 @@ public class CardBattleMain
                 playerGrave.Clear();
                 playerLib.Shuffle();
             }
+            // 抽牌库顶的一张牌放入手牌
+            Card draw = playerLib[0];
+            playerHand.Add(draw);
+            playerLib.Remove(draw);
+            draw.nowIsIn = CardPosition.Hand;
         }
     }
 
